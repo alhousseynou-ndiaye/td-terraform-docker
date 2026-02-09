@@ -1,0 +1,13 @@
+- name: Validate nginx locally (HTTP 200)
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  vars:
+    url: "http://localhost:8080"
+
+  tasks:
+    - name: Check HTTP endpoint
+      uri:
+        url: "{{ url }}"
+        status_code: 200
