@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TD Avancé – Terraform (Docker Provider) : Provisionner un container Docker
 
 ## Contexte
