@@ -16,15 +16,6 @@ La **validation** (curl / check HTTP) se fait après, sans transformer Terraform
 - Terraform installé
 - Accès Internet (pull de l'image)
 
-## Structure du projet
-.
-├─ main.tf
-├─ variables.tf
-├─ outputs.tf
-├─ versions.tf
-├─ terraform.tfvars
-└─ .gitignore
-
 
 ## Déploiement
 ```bash
