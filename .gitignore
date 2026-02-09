@@ -4,7 +4,6 @@
 *.tfstate.*
 *.tfplan
 crash.log
-.terraform.lock.hcl
 
 # Keys / secrets
 id_ed25519
